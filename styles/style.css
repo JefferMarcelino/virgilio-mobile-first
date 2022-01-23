@@ -84,6 +84,11 @@ section {
     text-align: left;
 }
 
+.textBox strong {
+    color: #F70C20;
+    font-weight: 700;
+    font-variant: small-caps;
+}
 
 /* HEADER */
 header#header {
@@ -136,4 +141,23 @@ header#header nav {
     visibility: hidden;
 }
 
-/* ABOUT */
+/* SERVICES SWIPER */
+.swiper-container {
+    width: 80vw;
+}
+
+#services .swiper-slide {
+    transform: scale(0.1);
+}
+
+#services .swiper-slide.swiper-slide-active img {
+    transition: 0.5s;
+}
+
+#services .swiper-slide.swiper-slide-active {
+    transform: scale(1);
+}
+
+.swiper-container .swiper-slide img {
+    width: 100%;
+}
